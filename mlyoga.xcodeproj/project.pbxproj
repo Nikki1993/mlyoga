@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0148B7DC2D1301D400A097CC /* PoseEstimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148B7DB2D1301D400A097CC /* PoseEstimatorView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0148B7C22D11A3A100A097CC /* mlyoga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mlyoga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0148B7DB2D1301D400A097CC /* PoseEstimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseEstimatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		0148B7B92D11A3A100A097CC = {
 			isa = PBXGroup;
 			children = (
+				0148B7DB2D1301D400A097CC /* PoseEstimatorView.swift */,
 				0148B7C42D11A3A100A097CC /* mlyoga */,
 				0148B7C32D11A3A100A097CC /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0148B7DC2D1301D400A097CC /* PoseEstimatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +262,7 @@
 				DEVELOPMENT_TEAM = L24CN9RHPU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required to track your yoga movement.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +292,7 @@
 				DEVELOPMENT_TEAM = L24CN9RHPU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera required to track your yoga movement.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
